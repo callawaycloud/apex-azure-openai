@@ -1,3 +1,7 @@
+/**
+ * OAIChatInvokable
+ * Source from https://github.com/callawaycloud/apex-azure-openai
+ */
 public class OAIChatInvokable {
   @InvocableMethod(
     label='OpenAI Chat'

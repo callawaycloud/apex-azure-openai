@@ -7,10 +7,6 @@ chatRequest.messages = new OAIMessage[]{
     new OAIMessage('user', 'Write a short poem about Salesforce software developement')
 };
 
-
 OAIChatClient.ChatResponse chatResponse = OAIChatClient.sendRequest(chatRequest);
 String completion = chatResponse.choices[0].message.content;
 System.debug(completion);
-
-
-

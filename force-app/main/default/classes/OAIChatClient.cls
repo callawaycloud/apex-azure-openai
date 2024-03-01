@@ -1,3 +1,7 @@
+/**
+ * OAIChatClient
+ * Source from https://github.com/callawaycloud/apex-azure-openai
+ */
 public class OAIChatClient {
   public static ChatResponse sendRequest(ChatRequest request) {
     HttpRequest req = new HttpRequest();
